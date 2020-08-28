@@ -12,7 +12,7 @@
     "clean": "rimraf dist/*",
     "lint": "eslint . --ext .ts",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "build": "npm run clean && tsc && webpack",
+    "build": "npm run test && npm run clean && tsc && webpack",
     "dev": "npm run clean && tsc --watch",
     "prepublishOnly": "npm run build"
   },
