@@ -1,5 +1,10 @@
 # twt.js
 
+[![npm (latest)](https://img.shields.io/npm/v/twt.js/latest.svg)](https://www.npmjs.com/package/twt.js)
+[![Travis CI Build Status](https://travis-ci.org/jointwt/twt.js.svg?branch=master)](https://travis-ci.org/jointwt/twt.js)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ee5082067e2cc64784bc/maintainability)](https://codeclimate.com/github/jointwt/twt.js/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ee5082067e2cc64784bc/test_coverage)](https://codeclimate.com/github/jointwt/twt.js/test_coverage)
+
 ![Twt logo](https://github.com/jointwt/twt.js/raw/master/assets/logo.png)
 
 Wrapper library for [Twtxt.net API](http://dev.twtxt.net/doc/api.html) written in TypeScript.
