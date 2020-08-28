@@ -13,3 +13,4 @@ AUTHORS
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
 webpack.*.js
+.mergify.yml
