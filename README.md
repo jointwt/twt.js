@@ -39,7 +39,7 @@ If you want to use twt.js in a web browser, the quickest way to start is using a
 
 # Quick start
 
-Instantiate new `TwtJS` class with URL of the pod you want work with:
+Instantiate `TwtJS` class with URL of the pod you want to work with:
 
 ```js
 const twt = new TwtJS({
