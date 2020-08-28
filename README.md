@@ -76,12 +76,12 @@ console.log(data);
 
 Twt.js always returns JSON objects formatted in the following way:
 
-```json
+```js
 {
   status: 200, // HTTP response code or -1 for non-HTTP / network errors
   ok: true // or false
   statusText: 'OK' // Response status or error message
-  data: {} // returned data or empty object if no data is returned
+  data: {} // returned data or empty object if no data is returned from the API
 }
 ```
 
@@ -118,7 +118,7 @@ const data = await twt.register({
 
 ## authenticate({ username: string, password: string })
 
-**Requires authentication:**: no
+**Requires authentication:** no
 
 Performs API authentication and stores obtained API token in the Twt.js object.
 
@@ -178,7 +178,7 @@ const data  = await twt.getDiscover({
 
 ## follow({ page: number })
 
-**Requires authentication:** no
+**Requires authentication:** yes
 
 Follows a new user or feed.
 
