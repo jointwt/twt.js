@@ -199,6 +199,8 @@ const data  = await twt.follow({
 
 Found a bug? Got a question? Need a new feature? Please [file a new issue](https://github.com/jointwt/twt.js/issues) or submit a pull request. Thanks in advance!
 
+Please see the [Contributing Guidelines](https://github.com/jointwt/twt.js/blob/master/CONTRIBUTING.md).
+
 # License
 
 Licensed under MIT License. See [LICENSE](https://github.com/jointwt/twt.js/blob/master/LICENSE) for more information.
