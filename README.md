@@ -5,7 +5,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/ee5082067e2cc64784bc/maintainability)](https://codeclimate.com/github/jointwt/twt.js/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ee5082067e2cc64784bc/test_coverage)](https://codeclimate.com/github/jointwt/twt.js/test_coverage)
 
-![Twt logo](https://github.com/jointwt/twt.js/raw/master/assets/logo.png)
+![Twt logo](https://raw.githubusercontent.com/jointwt/twt.js/master/assets/logo.png)
 
 Wrapper library for [Twtxt.net API](http://dev.twtxt.net/doc/api.html) written in TypeScript.
 

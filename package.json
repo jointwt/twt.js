@@ -2,10 +2,10 @@
   "name": "twt.js",
   "version": "0.0.1",
   "description": "API wrapper for Twt API",
-  "homepage": "https://github.com/lukemnet/twt.js",
+  "homepage": "https://github.com/jointwt/twt.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "browser": "dist/web/twt.js",
+  "browser": "dist/web/twt.min.js",
   "scripts": {
     "test": "jest",
     "clearTestCache": "jest --clearCache",
@@ -20,15 +20,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lukemnet/twt.js.git"
+    "url": "git://github.com/jointwt/twt.js.git"
   },
   "bugs": {
-    "url": "https://github.com/lukemnet/twt.js/issues"
+    "url": "https://github.com/jointwt/twt.js/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/lukemnet/twt.js/blob/master/LICENSE"
+      "url": "https://github.com/jointwt/twt.js/blob/master/LICENSE"
     }
   ],
   "dependencies": {
@@ -41,13 +41,26 @@
     "eslint-config-airbnb-typescript": "^9.0.0",
     "eslint-plugin-import": "^2.22.0",
     "jest": "^26.4.2",
-    "prettier": "^2.1.0",
+    "prettier": "^2.1.1",
     "rimraf": "^3.0.2",
-    "ts-jest": "^26.2.0",
+    "ts-jest": "^26.3.0",
     "ts-loader": "^8.0.3",
     "typescript": "^4.0.2",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "keywords": [
+    "twtxt",
+    "twt",
+    "api",
+    "twtxt-api",
+    "twt-api",
+    "wrapper",
+    "decentralized",
+    "social-network",
+    "social-media",
+    "self-hosted",
+    "micro-blogging"    
+  ]
 }
