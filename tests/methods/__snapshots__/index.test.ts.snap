@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authenticate calls getData 1`] = `
+Object {
+  "data": Object {
+    "message": "successful mocked response from getData",
+    "params": Object {
+      "body": Object {
+        "password": "sample_password",
+        "username": "sample_login",
+      },
+      "method": "POST",
+      "url": "https://sample.test.url/api/v1/auth",
+    },
+  },
+  "message": "ok",
+  "status": 200,
+}
+`;
+
+exports[`follow calls getData 1`] = `
+Object {
+  "data": Object {
+    "message": "successful mocked response from getData",
+    "params": Object {
+      "body": Object {
+        "nick": "sample_user",
+        "url": "sample_feed_url",
+      },
+      "headers": Object {
+        "Token": "sample_test_token",
+      },
+      "method": "POST",
+      "url": "https://sample.test.url/api/v1/follow",
+    },
+  },
+  "message": "ok",
+  "status": 200,
+}
+`;
+
+exports[`getDiscover calls getData 1`] = `
+Object {
+  "data": Object {
+    "message": "successful mocked response from getData",
+    "params": Object {
+      "body": Object {
+        "page": 1,
+      },
+      "headers": Object {
+        "Token": "sample_test_token",
+      },
+      "method": "POST",
+      "url": "https://sample.test.url/api/v1/discover",
+    },
+  },
+  "message": "ok",
+  "status": 200,
+}
+`;
+
+exports[`getTimeline calls getData 1`] = `
+Object {
+  "data": Object {
+    "message": "successful mocked response from getData",
+    "params": Object {
+      "body": Object {
+        "page": 1,
+      },
+      "headers": Object {
+        "Token": "sample_test_token",
+      },
+      "method": "POST",
+      "url": "https://sample.test.url/api/v1/timeline",
+    },
+  },
+  "message": "ok",
+  "status": 200,
+}
+`;
+
+exports[`ping calls getData 1`] = `
+Object {
+  "data": Object {
+    "message": "successful mocked response from getData",
+    "params": Object {
+      "method": "GET",
+      "url": "https://sample.test.url/api/v1/ping",
+    },
+  },
+  "message": "ok",
+  "status": 200,
+}
+`;
+
+exports[`post calls getData 1`] = `
+Object {
+  "data": Object {
+    "message": "successful mocked response from getData",
+    "params": Object {
+      "body": Object {
+        "postas": "sample_user",
+        "text": "sample_text",
+      },
+      "headers": Object {
+        "Token": "sample_test_token",
+      },
+      "method": "POST",
+      "url": "https://sample.test.url/api/v1/post",
+    },
+  },
+  "message": "ok",
+  "status": 200,
+}
+`;
+
+exports[`register calls getData 1`] = `
+Object {
+  "data": Object {
+    "message": "successful mocked response from getData",
+    "params": Object {
+      "body": Object {
+        "email": "sample@test.email.tld",
+        "password": "sample_password",
+        "username": "sample_login",
+      },
+      "method": "POST",
+      "url": "https://sample.test.url/api/v1/register",
+    },
+  },
+  "message": "ok",
+  "status": 200,
+}
+`;

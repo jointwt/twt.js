@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetches data from server when server returns a successful response 1`] = `
+Object {
+  "data": Object {
+    "data": "mocked successful response",
+  },
+  "ok": true,
+  "status": 200,
+  "statusText": "ok",
+}
+`;
+
+exports[`fetches data from server when server returns an empty response 1`] = `
+Object {
+  "data": Object {},
+  "ok": true,
+  "status": 200,
+  "statusText": "ok but empty",
+}
+`;
+
+exports[`handles errors gracefully 1`] = `
+Object {
+  "data": Object {},
+  "ok": false,
+  "status": -1,
+  "statusText": "general mocked error",
+}
+`;

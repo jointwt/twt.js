@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should generate correct fetch params for all known endpoint names 1`] = `
+Object {
+  "method": "GET",
+  "url": "https://sample.twt.instance/api/v1/ping",
+}
+`;
+
+exports[`should generate correct fetch params for all known endpoint names 2`] = `
+Object {
+  "method": "POST",
+  "url": "https://sample.twt.instance/api/v1/register",
+}
+`;
+
+exports[`should generate correct fetch params for all known endpoint names 3`] = `
+Object {
+  "method": "POST",
+  "url": "https://sample.twt.instance/api/v1/auth",
+}
+`;
+
+exports[`should generate correct fetch params for all known endpoint names 4`] = `
+Object {
+  "method": "POST",
+  "url": "https://sample.twt.instance/api/v1/post",
+}
+`;
+
+exports[`should generate correct fetch params for all known endpoint names 5`] = `
+Object {
+  "method": "POST",
+  "url": "https://sample.twt.instance/api/v1/timeline",
+}
+`;
+
+exports[`should generate correct fetch params for all known endpoint names 6`] = `
+Object {
+  "method": "POST",
+  "url": "https://sample.twt.instance/api/v1/discover",
+}
+`;
+
+exports[`should generate correct fetch params for all known endpoint names 7`] = `
+Object {
+  "method": "POST",
+  "url": "https://sample.twt.instance/api/v1/follow",
+}
+`;

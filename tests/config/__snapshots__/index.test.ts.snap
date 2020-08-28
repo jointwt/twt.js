@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`config should be defined 1`] = `
+Object {
+  "api": Object {
+    "auth": Object {
+      "endpoint": "auth",
+      "method": "POST",
+    },
+    "discover": Object {
+      "endpoint": "discover",
+      "method": "POST",
+    },
+    "follow": Object {
+      "endpoint": "follow",
+      "method": "POST",
+    },
+    "ping": Object {
+      "endpoint": "ping",
+      "method": "GET",
+    },
+    "post": Object {
+      "endpoint": "post",
+      "method": "POST",
+    },
+    "register": Object {
+      "endpoint": "register",
+      "method": "POST",
+    },
+    "timeline": Object {
+      "endpoint": "timeline",
+      "method": "POST",
+    },
+  },
+  "prefix": "api/v1",
+}
+`;

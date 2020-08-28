@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authenticate should call methods.authenticate 1`] = `"sample_mocked_token"`;
+
+exports[`follow should call methods.follow 1`] = `
+Object {
+  "message": "successful mocked follow call",
+}
+`;
+
+exports[`getDiscover should call methods.getDiscover 1`] = `
+Object {
+  "message": "successful mocked discover call",
+}
+`;
+
+exports[`getTimeline should call methods.getTimeline 1`] = `
+Object {
+  "message": "successful mocked timeline call",
+}
+`;
+
+exports[`getTimeline should call methods.getTimeline 2`] = `
+Object {
+  "message": "successful mocked timeline call",
+}
+`;
+
+exports[`ping should call methods.ping 1`] = `
+Object {
+  "message": "successful mocked ping call",
+}
+`;
+
+exports[`post should call methods.post 1`] = `
+Object {
+  "message": "successful mocked post call",
+}
+`;
+
+exports[`register should call methods.register 1`] = `
+Object {
+  "message": "successful mocked register call",
+}
+`;

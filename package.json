@@ -1,0 +1,53 @@
+{
+  "name": "twt.js",
+  "version": "0.0.1",
+  "description": "API wrapper for Twt API",
+  "homepage": "https://github.com/lukemnet/twt.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "browser": "dist/web/twt.js",
+  "scripts": {
+    "test": "jest",
+    "clearTestCache": "jest --clearCache",
+    "clean": "rimraf dist/*",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "build": "npm run clean && tsc && webpack",
+    "dev": "npm run clean && tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Łukasz Wójcik",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukemnet/twt.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukemnet/twt.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lukemnet/twt.js/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "cross-fetch": "^3.0.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-typescript": "^9.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.2.0",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
