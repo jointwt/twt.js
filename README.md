@@ -29,6 +29,8 @@ npm install
 npm run build
 ```
 
+# Browser module
+
 If you want to use twt.js in a web browser, the quickest way to start is using a pre-built version of Twt.js via unpkg.com:
 
 ```html
