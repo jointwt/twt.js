@@ -1,5 +1,7 @@
 # twt.js
 
+![Twt logo](https://github.com/jointwt/twt.js/raw/master/assets/logo.png)
+
 Wrapper library for [Twtxt.net API](http://dev.twtxt.net/doc/api.html) written in TypeScript.
 
 # Install
