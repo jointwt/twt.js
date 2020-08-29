@@ -56,7 +56,7 @@ test('authenticate calls getData', async () => {
 test('post calls getData', async () => {
   const testPost = {
     text: 'sample_text',
-    postas: 'sample_user',
+    post_as: 'sample_user',
   };
 
   const data = await methods.post(testPost, testOptions);
