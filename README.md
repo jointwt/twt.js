@@ -144,7 +144,7 @@ Posts a new twt.
 ```js
 const data  = await twt.post({
   text: 'Twt content',
-  postas: 'user_or_feed',
+  post_as: 'user_or_feed',
 });
 
 // do something with data

@@ -99,7 +99,7 @@ Object {
     "message": "successful mocked response from getData",
     "params": Object {
       "body": Object {
-        "postas": "sample_user",
+        "post_as": "sample_user",
         "text": "sample_text",
       },
       "headers": Object {

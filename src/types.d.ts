@@ -21,7 +21,7 @@ export interface NewAccount extends Account {
 
 export interface PostParams {
   text: string;
-  postas: string;
+  post_as?: string;
 }
 
 export interface UserOrFeed {
