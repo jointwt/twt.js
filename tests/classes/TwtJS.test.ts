@@ -77,7 +77,7 @@ test('post should call methods.post', async () => {
   const twtJs = getTwtInstance();
   const data = await twtJs.post({
     text: 'sample_text',
-    postas: 'sample_user',
+    post_as: 'sample_user',
   });
 
   expect(data).toMatchSnapshot();
