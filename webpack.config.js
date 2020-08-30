@@ -1,5 +1,5 @@
 const path = require('path');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 
 const PATHS = {
   entryPoint: path.resolve(__dirname, 'src/index.ts'),
@@ -32,12 +32,13 @@ module.exports = {
     }],
   },
   optimization: {
+    minimize: true,
     minimizer: [
-      new UglifyJsPlugin({
+      new TerserPlugin({
         include: /\.min\.js$/,
         cache: true,
         parallel: true,
-        uglifyOptions: {
+        terserOptions: {
           parse: {},
           compress: {},
           mangle: {
