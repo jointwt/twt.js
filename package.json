@@ -1,6 +1,6 @@
 {
   "name": "twt.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "API wrapper for Twt API",
   "homepage": "https://github.com/jointwt/twt.js",
   "main": "./dist/index.js",
